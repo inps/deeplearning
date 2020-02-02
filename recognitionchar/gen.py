@@ -19,6 +19,7 @@ class RandomChar():
         val = ( head << 8 ) | (body << 4) | tail
         str = "%x" % val
         return str.decode('hex').decode('gbk')    
+        
 
 class ImageChar():
     def __init__(self, fontColor = (0, 0, 0),
